@@ -18,8 +18,8 @@
   </head>
   <body class="page">
     <header class="header card page__header">
-      <h1 class="page-title header__title">&lt;/HTML&gt;</h1>
-      <p class="header__subtitle">закрывающий тег</p>
+      <span class="page-title header__title">&lt;/HTML&gt;</span>
+      <h1 class="header__subtitle">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <ul class="theme-menu__list">
           <li class="theme-menu__item">
@@ -56,13 +56,11 @@
             </header>
             <div class="card__img-wrapper">
               <span class="card__img-label">&lt;/HTML&gt;</span>
-              <picture>
                 <img
                   class="card__img"
                   src="./images/image.png"
-                  alt="Машинка едет"
+                  alt="Машинка едет через лес"
                 />
-              </picture>
             </div>
             <div class="card__content">
               <p>
@@ -73,11 +71,13 @@
               <p>Вперед, навстречу приключениям!</p>
             </div>
             <footer class="card__footer">
-              <button class="card__icon-button">
+              <button
+                aria-labelledby="article_1_like_button"
+                type="button"
+                class="card__icon-button"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="39"
-                  height="36"
                   viewBox="0 0 39 36"
                   fill="none"
                   class="like-icon"
@@ -106,7 +106,11 @@
                   />
                 </svg>
               </button>
-              <button class="button card__like-button">
+              <button
+              id="article_1_like_button"
+              type="button"
+              class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
@@ -119,13 +123,11 @@
             </header>
             <div class="card__img-wrapper">
               <span class="card__img-label">&lt;Lets-a-go&gt;</span>
-              <picture>
                 <img
                   class="card__img filter-grayscale"
                   src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWduOXV1cGFzaXVqdWo2c2V1ZzVzcjE1dGR0bzB5bGl6OWdzZHFseCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fXJyMfUdqVCMPAnPJM/giphy.webp"
-                  alt="Kombucha No But GIF"
+                  alt="Женщине что-то не нравится, но потом ей начинает нравится"
                 />
-              </picture>
             </div>
             <div class="card__content">
               <p>
@@ -143,11 +145,13 @@
               </p>
             </div>
             <footer class="card__footer">
-              <button class="card__icon-button">
+              <button
+                aria-labelledby="article_2_like_button"
+                type="button"
+                class="card__icon-button"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="39"
-                  height="36"
                   viewBox="0 0 39 36"
                   fill="none"
                   class="like-icon"
@@ -176,7 +180,11 @@
                   />
                 </svg>
               </button>
-              <button class="button card__like-button">
+              <button
+                id="article_2_like_button"
+                type="button"
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
@@ -189,13 +197,11 @@
             </header>
             <div class="card__img-wrapper">
               <span class="card__img-label">&lt;We are the champions&gt;</span>
-              <picture>
                 <img
                   class="card__img filter-saturate"
                   src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzYwNXEyaGtpYm0zdWszMDVuazlhbGloNzh1NGJ4d2RmMjU0MDRuciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MEGVADYlvKWgbOmvWX/giphy.webp"
-                  alt="Please Clap Jeb Bush GIF"
+                  alt="Мужчина стоит перед толпой и просит ему похлопать"
                 />
-              </picture>
             </div>
             <div class="card__content">
               <p>
@@ -206,11 +212,13 @@
               <p>Успех - это переход от неудачи к неудаче без потери энтузиазма</p>
             </div>
             <footer class="card__footer">
-              <button class="card__icon-button">
+              <button
+                aria-labelledby="article_3_like_button"
+                type="button"
+                class="card__icon-button"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="39"
-                  height="36"
                   viewBox="0 0 39 36"
                   fill="none"
                   class="like-icon"
@@ -239,7 +247,11 @@
                   />
                 </svg>
               </button>
-              <button class="button card__like-button">
+              <button
+                id="article_3_like_button"
+                type="button"
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
@@ -252,13 +264,11 @@
             </header>
             <div class="card__img-wrapper">
               <span class="card__img-label">&lt;the ideal&gt;</span>
-              <picture>
                 <img
                   class="card__img filter-multiple"
                   src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWwydDJocHJ5ZmswNjlkNnE3Y2g3aDdpcmUxdnFzMmNsYzNzY3FpNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pz8CtPwCDoi1xaN26m/giphy.webp"
-                  alt="Jason Statham's gif"
+                  alt="Джейсон Стэтхам в официальном костюме подходит к камере"
                 />
-              </picture>
             </div>
             <div class="card__content">
               <p>
@@ -275,11 +285,13 @@
               </p>
             </div>
             <footer class="card__footer">
-              <button class="card__icon-button">
+              <button
+                aria-labelledby="article_4_like_button"
+                type="button"
+                class="card__icon-button"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="39"
-                  height="36"
                   viewBox="0 0 39 36"
                   fill="none"
                   class="like-icon"
@@ -308,7 +320,11 @@
                   />
                 </svg>
               </button>
-              <button class="button card__like-button">
+              <button
+                id="article_4_like_button"
+                type="button"
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
@@ -321,13 +337,11 @@
             </header>
             <div class="card__img-wrapper">
               <span class="card__img-label">&lt;family&gt;</span>
-              <picture>
                 <img
                   class="card__img filter-invert"
                   src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDg5bWlqd3N4bHcyY3NyZXUwMnJ6d2V5ZXl1ZDRsODh4aGwwZ3diaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/amg2hcfGDkKt4Q3DpF/giphy.webp"
-                  alt="Vin Diesel Family GIF"
+                  alt="Вин Дизель из фильма Форсаж говорит слово Семья"
                 />
-              </picture>
             </div>
             <div class="card__content">
               <p>
@@ -343,11 +357,13 @@
               </p>
             </div>
             <footer class="card__footer">
-              <button class="card__icon-button">
+              <button
+                aria-labelledby="article_5_like_button"
+                type="button"
+                class="card__icon-button"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="39"
-                  height="36"
                   viewBox="0 0 39 36"
                   fill="none"
                   class="like-icon"
@@ -376,7 +392,11 @@
                   />
                 </svg>
               </button>
-              <button class="button card__like-button">
+              <button
+                id="article_5_like_button"
+                type="button"
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
@@ -389,13 +409,11 @@
             </header>
             <div class="card__img-wrapper">
               <span class="card__img-label">&lt;Just chill&gt;</span>
-              <picture>
                 <img
                   class="card__img filter-sepia"
                   src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWcybGVoc3M2aGRua2psYjNpOXY5b3RzYTlhcDFtMzJqYjc3eTY3cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6vY59s91hWsxASYM/giphy.webp"
-                  alt="Relaxed Sunday Afternoon GIF"
+                  alt="Рик Росс плавает в бассейне на надувном матрасе с коктейлем в руке"
                 />
-              </picture>
             </div>
             <div class="card__content">
               <p>
@@ -409,11 +427,13 @@
               </p>
             </div>
             <footer class="card__footer">
-              <button class="card__icon-button">
+              <button
+                aria-labelledby="article_6_like_button"
+                type="button"
+                class="card__icon-button"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="39"
-                  height="36"
                   viewBox="0 0 39 36"
                   fill="none"
                   class="like-icon"
@@ -442,7 +462,11 @@
                   />
                 </svg>
               </button>
-              <button class="button card__like-button">
+              <button
+                id="article_6_like_button"
+                type="button"
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
@@ -455,13 +479,11 @@
             </header>
             <div class="card__img-wrapper">
               <span class="card__img-label">&lt;Calm only calm&gt;</span>
-              <picture>
                 <img
                   class="card__img filter-blur"
                   src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWx0amN5bTdnYnE4YTJieXQ1NmF0d3U5Z2RqMjl4eDJqZmFtazUyYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PIc47MQpWC1zVI3yDY/giphy.webp"
-                  alt="Calm Down GIF"
+                  alt="Стивен Амелл жестом показывает успокоиться"
                 />
-              </picture>
             </div>
             <div class="card__content">
               <p>
@@ -479,11 +501,13 @@
               </p>
             </div>
             <footer class="card__footer">
-              <button class="card__icon-button">
+              <button
+                aria-labelledby="article_7_like_button"
+                type="button"
+                class="card__icon-button"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="39"
-                  height="36"
                   viewBox="0 0 39 36"
                   fill="none"
                   class="like-icon"
@@ -512,7 +536,11 @@
                   />
                 </svg>
               </button>
-              <button class="button card__like-button">
+              <button
+                id="article_7_like_button"
+                type="button"
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
@@ -525,13 +553,11 @@
             </header>
             <div class="card__img-wrapper">
               <span class="card__img-label">&lt;Future&gt;</span>
-              <picture>
                 <img
                   class="card__img filter-hue-rotate"
                   src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExODliaXUwb3hpdXR1Nncyem9weHdhOXlvdWl3YjBqaDE3Nzc0anN5cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o0vwzuFwCGAFO/giphy.webp"
-                  alt="Cat Reaction GIF"
+                  alt="Кот в костюме быстро печатает по клавиатуре ноутбука"
                 />
-              </picture>
             </div>
             <div class="card__content">
               <p>
@@ -547,11 +573,13 @@
               </p>
             </div>
             <footer class="card__footer">
-              <button class="card__icon-button">
+              <button
+              aria-labelledby="article_8_like_button"
+              type="button"
+              class="card__icon-button"
+            >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="39"
-                  height="36"
                   viewBox="0 0 39 36"
                   fill="none"
                   class="like-icon"
@@ -580,15 +608,24 @@
                   />
                 </svg>
               </button>
-              <button class="button card__like-button">
+              <button
+                id="article_8_like_button"
+                type="button"
+                class="button card__like-button"
+              >
                 <span class="button__text">Like</span>
               </button>
             </footer>
           </article>
         </li>
       </ul>
-      <button onclick="window.modal.showModal();" class="button button--save">
-        <svg width="28" height="28" class="button__icon" viewBox="0 0 29 28">
+      <button
+        type="button"
+        onclick="window.modal.showModal();"
+        aria-controls="modal"
+        class="button button--save"
+      >
+        <svg class="button__icon" viewBox="0 0 29 28">
           <use href="svg/floppy.svg#floppy" />
         </svg>
         <span class="button__text">Сохранить на память</span>
@@ -596,14 +633,16 @@
     </main>
     <dialog class="modal" id="modal">
       <div class="modal__content">
-        <svg class="modal__icon" width="39" height="39" viewBox="0 0 29 28">
+        <svg class="modal__icon" viewBox="0 0 29 28">
           <use href="svg/floppy.svg#floppy" />
         </svg>
         <p>Вставьте дискету,чтобы продолжить</p>
       </div>
-      <button class="button" onclick="window.modal.close();">
+      <form method="dialog">
+        <button type="submit" class="button modal__button">
         <span class="button__text">ок</span>
-      </button>
+        </button>
+      </form>
     </dialog>
     <script src="./scripts/like.js"></script>
   </body>
